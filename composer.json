@@ -1,0 +1,29 @@
+{
+    "name": "hao/tetra-file-manager",
+    "authors": [
+        {
+            "name": "vanhaohero1998",
+            "email": "quachvanhao2020@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TetraFileManager\\": "src/"
+        },
+        "files": [
+            "src/functions.php",
+            "src/awake.php"
+        ]
+    },
+    "require": {
+        "php": ">=5.3",
+        "hao/explorer": "dev-main",
+        "hao/yphp": "dev-main",
+        "ralouphie/mimey": "^2.1",
+        "monolog/monolog": "^2.1"
+    },
+    "repositories": [
+        {"type": "vcs", "url": "https://github.com/quachvanhao2020/YPHP.git"},
+        {"type": "vcs", "url": "https://github.com/quachvanhao2020/Explorer.git"}
+    ]
+}
