@@ -9,12 +9,12 @@
     "autoload": {
         "psr-4": {
             "TetraFileManager\\": "src/",
-            "Explorer\\": "explorer/src"
+            "Explorer\\": "src/explorer"
         },
         "files": [
             "src/functions.php",
             "src/awake.php",
-            "explorer/src/functions.php"
+            "src/explorer/functions.php"
         ]
     },
     "require": {

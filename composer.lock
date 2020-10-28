@@ -4,60 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc6da159dea912e6fd931dc9ffa49109",
+    "content-hash": "25dea06e5b035572900c86015cc26fdc",
     "packages": [
-        {
-            "name": "hao/explorer",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/quachvanhao2020/Explorer.git",
-                "reference": "5a9e11f665ea27f07d24a33190a467584098287a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/quachvanhao2020/Explorer/zipball/5a9e11f665ea27f07d24a33190a467584098287a",
-                "reference": "5a9e11f665ea27f07d24a33190a467584098287a",
-                "shasum": ""
-            },
-            "require": {
-                "hao/yphp": "dev-main",
-                "php": ">=5.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Explorer\\": "src/"
-                },
-                "files": [
-                    "src/functions.php",
-                    "src/awake.php"
-                ]
-            },
-            "authors": [
-                {
-                    "name": "vanhaohero1998",
-                    "email": "quachvanhao2020@gmail.com"
-                }
-            ],
-            "support": {
-                "source": "https://github.com/quachvanhao2020/Explorer/tree/main",
-                "issues": "https://github.com/quachvanhao2020/Explorer/issues"
-            },
-            "time": "2020-10-26T23:58:52+00:00"
-        },
         {
             "name": "hao/yphp",
             "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/quachvanhao2020/YPHP.git",
-                "reference": "94cea81e3e58b6458a9e9bf1d9cd545c13fd2ef7"
+                "reference": "52b8636af4bbc06b75c6861e4673aba7aa9825f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quachvanhao2020/YPHP/zipball/94cea81e3e58b6458a9e9bf1d9cd545c13fd2ef7",
-                "reference": "94cea81e3e58b6458a9e9bf1d9cd545c13fd2ef7",
+                "url": "https://api.github.com/repos/quachvanhao2020/YPHP/zipball/52b8636af4bbc06b75c6861e4673aba7aa9825f0",
+                "reference": "52b8636af4bbc06b75c6861e4673aba7aa9825f0",
                 "shasum": ""
             },
             "require": {
@@ -95,7 +55,7 @@
                 "source": "https://github.com/quachvanhao2020/YPHP/tree/main",
                 "issues": "https://github.com/quachvanhao2020/YPHP/issues"
             },
-            "time": "2020-10-25T00:12:35+00:00"
+            "time": "2020-10-28T08:21:25+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -473,7 +433,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "hao/explorer": 20,
         "hao/yphp": 20
     },
     "prefer-stable": false,
