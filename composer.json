@@ -8,16 +8,17 @@
     ],
     "autoload": {
         "psr-4": {
-            "TetraFileManager\\": "src/"
+            "TetraFileManager\\": "src/",
+            "Explorer\\": "explorer/src"
         },
         "files": [
             "src/functions.php",
-            "src/awake.php"
+            "src/awake.php",
+            "explorer/src/functions.php"
         ]
     },
     "require": {
         "php": ">=5.3",
-        "hao/explorer": "dev-main",
         "hao/yphp": "dev-main",
         "ralouphie/mimey": "^2.1",
         "monolog/monolog": "^2.1"
